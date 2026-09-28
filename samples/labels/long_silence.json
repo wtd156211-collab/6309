@@ -1,0 +1,22 @@
+{
+  "file": "long_silence.wav",
+  "events": [
+    {
+      "start_ms": 11000,
+      "end_ms": 11060,
+      "peak": 20068
+    }
+  ],
+  "silences": [
+    {
+      "start_ms": 1500,
+      "end_ms": 11000,
+      "peak": 1644
+    },
+    {
+      "start_ms": 11060,
+      "end_ms": 16000,
+      "peak": 7
+    }
+  ]
+}

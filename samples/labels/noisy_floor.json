@@ -1,0 +1,16 @@
+{
+  "file": "noisy_floor.wav",
+  "events": [
+    {
+      "start_ms": 2000,
+      "end_ms": 2060,
+      "peak": 30071
+    },
+    {
+      "start_ms": 5600,
+      "end_ms": 5660,
+      "peak": 30470
+    }
+  ],
+  "silences": []
+}

@@ -1,0 +1,11 @@
+{
+  "file": "sudden_pop.wav",
+  "events": [
+    {
+      "start_ms": 6000,
+      "end_ms": 6120,
+      "peak": 32768
+    }
+  ],
+  "silences": []
+}

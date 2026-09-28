@@ -1,0 +1,56 @@
+{
+  "file": "dense_transients.wav",
+  "events": [
+    {
+      "start_ms": 300,
+      "end_ms": 350,
+      "peak": 29973
+    },
+    {
+      "start_ms": 900,
+      "end_ms": 950,
+      "peak": 29958
+    },
+    {
+      "start_ms": 1500,
+      "end_ms": 1550,
+      "peak": 29943
+    },
+    {
+      "start_ms": 2100,
+      "end_ms": 2150,
+      "peak": 29963
+    },
+    {
+      "start_ms": 2700,
+      "end_ms": 2750,
+      "peak": 29977
+    },
+    {
+      "start_ms": 3300,
+      "end_ms": 3350,
+      "peak": 29879
+    },
+    {
+      "start_ms": 3900,
+      "end_ms": 3950,
+      "peak": 29903
+    },
+    {
+      "start_ms": 4500,
+      "end_ms": 4550,
+      "peak": 29960
+    },
+    {
+      "start_ms": 5100,
+      "end_ms": 5150,
+      "peak": 29953
+    },
+    {
+      "start_ms": 5700,
+      "end_ms": 5750,
+      "peak": 29982
+    }
+  ],
+  "silences": []
+}
