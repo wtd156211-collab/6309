@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>波形复核</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 16px; color: #222; }
+  #bar { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+  #report-path { width: 320px; padding: 4px 6px; }
+  #verdict { font-weight: 600; }
+  #verdict.ok { color: #2e7d32; }
+  #verdict.bad { color: #c62828; }
+  .file-block { border: 1px solid #ddd; border-radius: 6px; padding: 8px 12px; margin: 12px 0; }
+  .file-title { font-size: 14px; margin-bottom: 6px; }
+  .file-title .note { color: #888; font-weight: 400; margin-left: 8px; }
+  svg.scope { display: block; width: 100%; height: 120px; background: #fafafa; }
+  .event { fill: #d64545; fill-opacity: .55; }
+  .silence { fill: #9e9e9e; fill-opacity: .45; }
+  .mark-event { fill: none; stroke: #b71c1c; stroke-width: 1.5; stroke-dasharray: 5 3; }
+  .mark-silence { fill: none; stroke: #424242; stroke-width: 1.5; stroke-dasharray: 5 3; }
+  .wave { fill: #3a6ea5; fill-opacity: .8; stroke: none; }
+  #status { color: #888; font-size: 13px; }
+</style>
+</head>
+<body>
+<div id="bar">
+  <input id="report-path" type="text" value="../var/report.json">
+  <button id="load">加载</button>
+  <span id="verdict"></span>
+</div>
+<div id="status"></div>
+<div id="files"></div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
